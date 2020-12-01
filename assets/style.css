@@ -470,7 +470,7 @@ section {
 }
 
 .contact .info i {
-  font-size: 20px;
+  font-size: 2em;
   color: var(--primary);
   float: left;
   width: 44px;
@@ -481,6 +481,10 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+}
+
+.contact .info .phone i {
+  font-size: 2.5em;
 }
 
 .contact .info h4 {
