@@ -393,6 +393,7 @@ section {
   background-color: var(--info);
   color: var(--bg);
   margin-bottom: 2em;
+  height: fit-content;
 }
 
 /* Resume */
