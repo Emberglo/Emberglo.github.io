@@ -36,6 +36,10 @@ h6 {
   font-family: "Rock Salt", cursive;
 }
 
+.logo {
+  max-width: 100px;
+}
+
 /* Back To Top */
 .back-to-top {
   position: fixed;
