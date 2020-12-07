@@ -30,9 +30,9 @@
     <nav class="nav-menu">
       <ul>
         <li class="active"><a href="#hero"><i class="fas fa-home"></i> <span>Home</span></a></li>
-        <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
         <li><a href="#portfolio"><i class="fas fa-folder"></i> <span>Portfolio</span></a></li>
         <li><a href="#resume"><i class="fas fa-file"></i></i> <span>Resume</span></a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
         <li><a href="#contact"><i class="fas fa-address-card"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
@@ -64,31 +64,50 @@
 
   <main id="main">
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Ryan has always been an inquisitive person which drew him to the natural sciences. He spent six years studying Wildlife Biology at Boise State University. He worked in retail management for 10 years before deciding that he needed to look for a change. He wanted to find something that could satisfy his curiousity, createtivity, and desire to challenge himself. When he found software development, he knew he had found something that would satisfy all three.</p>
+          <h2>Portfolio</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="./assets/img/profile-removebg-preview-crop.png" class="img-fluid" alt="">
+        <div class="row bg-grey align-items-center">
+          <div class="col-12 col-lg-6 px-0">
+            <img src="./assets/img/triviagame.jpg" alt="" class="w-100">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Developer</h3>
-            <p class="font-italic">
-              Ryan attended Boise CodeWorks to learn Full-Stack Software Development
-            </p>
-            <p>
-              Ryan has experience using HTML, CSS, Sass, Bootstrap, Tailwind, JavaScript, jQuery, and VueJS to create beautiful and functional front-end user experiences. <br>
-              On the back-end, Ryan has used NodeJS with Express and MongoDB with Mongoose to structure the back-ends of his applications and to build his own servers. <br>
-              Ryan is comfortable working both alone and in a team environment to accomplish project goals. He has experience working under both waterfall and agile/SCRUM methodologies. <br>
-              Ryan is experienced with using object oriented and functional programming principles. He also uses Git with Github as version control for his projects. He also has experience incorporating libraries to extend the functionality and appearance of his application.
+          <div class="col-12 col-lg-6 text-right p-3">
+            <h4>Bar Trivia Management Application</h4>
+            <a href="https://github.com/MonroeGollaher/TriviaGame" target="_blank">View This Project</a>
+            <p class="mt-1 mb-0">For this project I worked with three other developers to plan and build this application to manage bar trivia for hosts and players<br>
+            This project was built using HTML, CSS, Sass, JavaScript, and VueJS on the front end, NodeJS with Express for the API, and MongoDB with Mongoose for the server. It also uses Auth0 for user authentication.</p>
+          </div>
+        </div>
+
+        <div class="row bg-grey align-items-center">
+          <div class="col-12 col-lg-6 text-left p-3 order-2 order-lg-1">
+            <h4>BugHunter</h4>
+            <a href="https://github.com/Emberglo/checkpoint-7" target="_blank">View This Project</a>
+            <p class="mt-1 mb-0">I built this project to track issues among multiple other projects. <br>
+            This project was built using HTML, CSS, JavaScript, VueJS on the front end, NodeJS with Express for the API, and MongoDB with Mongoose for the server. It also uses Auth0 for user authentication.</p>
+          </div>
+          <div class="col-12 col-lg-6 px-0 order-1 order-lg-2">
+            <img src="./assets/img/bughunter.jpg" alt="" class="w-100">
+          </div>
+        </div>
+
+        <div class="row bg-grey align-items-center">
+          <div class="col-12 col-lg-6 px-0">
+            <img src="./assets/img/inspire.jpg" alt="" class="w-100">
+          </div>
+          <div class="col-12 col-lg-6 text-right p-3">
+            <h4>Inspire</h4>
+            <a href="https://emberglo.github.io/checkpoint-4/" target="_blank">View This Project</a>
+            <p class="mt-1 mb-0">I built this project as a clone of the Inspire Chrome Extension. <br>
+            It is built using vanilla JavaScript in the MVC Design Pattern. It also accesses 3 separate APIs to draw the weather for my location, background image, and inspirational quote.
             </p>
           </div>
+          
         </div>
 
       </div>
@@ -151,55 +170,6 @@
       </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-        </div>
-
-        <div class="row bg-grey align-items-center">
-          <div class="col-12 col-lg-6 px-0">
-            <img src="./assets/img/triviagame.jpg" alt="" class="w-100">
-          </div>
-          <div class="col-12 col-lg-6 text-right p-3">
-            <h4>Bar Trivia Management Application</h4>
-            <a href="#projectLink" >View This Project</a>
-            <p class="mt-1 mb-0">Worked with a group of three other developers to plan and build an application for managing bar trivia games for hosts and players.<br>
-            This project was built using HTML, CSS, Sass, JavaScript, and VueJS on the front end, NodeJS with Express for the API, and MongoDB with Mongoose for the server. It also uses Auth0 for user authentication.</p>
-          </div>
-        </div>
-
-        <div class="row bg-grey align-items-center">
-          <div class="col-12 col-lg-6 text-left p-3 order-2 order-lg-1">
-            <h4>BugHunter</h4>
-            <a href="#projectLink" >View This Project</a>
-            <p class="mt-1 mb-0">This was a solo build application with the goal of creating an issue tracker to use alongside other applications. <br>
-            This project was built using HTML, CSS, JavaScript, VueJS on the front end, NodeJS with Express for the API, and MongoDB with Mongoose for the server. It also uses Auth0 for user authentication.</p>
-          </div>
-          <div class="col-12 col-lg-6 px-0 order-1 order-lg-2">
-            <img src="./assets/img/bughunter.jpg" alt="" class="w-100">
-          </div>
-        </div>
-
-        <div class="row bg-grey align-items-center">
-          <div class="col-12 col-lg-6 px-0">
-            <img src="./assets/img/inspire.jpg" alt="" class="w-100">
-          </div>
-          <div class="col-12 col-lg-6 text-right p-3">
-            <h4>Inspire</h4>
-            <a href="#projectLink" >View This Project</a>
-            <p class="mt-1 mb-0">This is a clone of the Inspire Chrome Extension. <br>
-            It is built using vanilla JavaScript in the MVC Design Pattern. It also accesses 3 separate APIs to draw the weather, background image, and inspirational quote.
-            </p>
-          </div>
-          
-        </div>
-
-      </div>
-    </section>
-
         <!-- Resume Section -->
     <section id="resume" class="resume">
       <div class="container-fluid" data-aos="fade-up">
@@ -214,11 +184,8 @@
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
               <h4> Ryan Carpenter</h4>
-              <p><em>Ryan is a highly driven individual that thrives when there is a challenge to be solved. He is comfortable collaborating with a team and jumping in wherever he is needed.</em></p>
-              <ul>
-                <li>Boise, Idaho USA</li>
-                <li>rccarpenter@outlook.com</li>
-              </ul>
+              <p><em>I am a highly driven individual that thrives when there is a challenge to be solved. I'm comfortable collaborating with a team and jumping in wherever I'm needed, or working alone when the situation calls for it.</em></p>
+              <p>Boise, Idaho USA</p>
             </div>
 
             <h3 class="resume-title">Education</h3>
@@ -232,7 +199,7 @@
               <h4>Wildlife Biology</h4>
               <h5>2010 - 2016</h5>
               <p><em>Boise State University - Boise, ID</em></p>
-              <p>Ryan attended Boise State University for Wildlife Biology for 6 years, but has not yet completed his degree. While in attendence he worked as a research assistant on multiple projects. He stoked his love of the natural world and grew a great desire to conserve the environment and the animals that call it home. He continues this mission through wildlife photography and raising awareness for issues facing the planet. Ryan still takes classes on occasion hoping to finish his degree.</p>
+              <p>I attended Boise State University for Wildlife Biology for 6 years, but have not yet completed this degree. While in attendence I worked as a research assistant on multiple projects. I stoked my love of the natural world and grew a great desire to conserve the environment and the animals that call it home. I continue this mission through wildlife photography and raising awareness for issues facing the planet. I still takes classes when I'm able hoping to finish this degree.</p>
             </div>
           </div>
           <div class="col-lg-6">
@@ -260,6 +227,36 @@
 
       </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I have always been an inquisitive person which drew me to the natural sciences. I spent six years studying Wildlife Biology at Boise State University. After that I worked in retail management for 10 years before deciding that I needed to look for a change. I wanted to find something that could satisfy my curiosity, creativity, and desire to challenge myself. When I found software development, I knew I had found something that would satisfy all three.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./assets/img/profile-removebg-preview-crop.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Software Developer</h3>
+            <p class="font-italic">
+              I attended Boise CodeWorks to learn Full-Stack Software Development
+            </p>
+            <p>
+              I have experience using HTML, CSS, Sass, Bootstrap, Tailwind, JavaScript, jQuery, and VueJS to create beautiful and functional front-end user experiences. <br>
+              On the back-end, I have used NodeJS with Express and MongoDB with Mongoose to structure the back-ends of my applications and to build my own servers. <br>
+              I am comfortable working both alone and in a team environment to accomplish project goals. I have experience working under both waterfall and agile/SCRUM methodologies. <br>
+              I am experienced with using object oriented and functional programming principles. I also use Git with Github as version control for my projects. I also have experience incorporating libraries to extend the functionality and appearance of my application.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </main>
 
     <!-- Footer -->
@@ -274,7 +271,7 @@
 
         <div class="row mt-1">
 
-          <div class="col-lg-3 offset-1">
+          <!-- <div class="col-lg-3 offset-1">
             <div class="info rounded">
               <div class="address">
                 <i class="fas fa-map-marker-alt"></i>
@@ -294,36 +291,21 @@
                 <a href="https://www.linkedin.com/in/ryanccarpenter/" class="linkedin"><i class="fab fa-linkedin ml-2"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-8 mt-5 mt-lg-0 d-none">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 rounded">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
+          <div class="col-10 offset-1 col-lg-8 offset-lg-2 mt-5 mt-lg-0 bg-light p-3 rounded">
+            <form action="https://formspree.io/f/xpzoyzjr" method="POST" class="w-100" >
+                <div class="form-group p-2">
+                  <input type="text" name="name" placeholder="Name">
                 </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+                <div class="form-group p-2">
+                  <input type="text" name="_replyto" placeholder="Email" required>
                 </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="form-group p-2">
+                  <textarea name="message" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn button">Send</button>
             </form>
-
           </div>
 
         </div>

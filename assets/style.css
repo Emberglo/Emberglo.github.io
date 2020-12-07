@@ -384,7 +384,7 @@ section {
 }
 
 /* Facts */
-.about .dev {
+.portfolio .dev {
   font-size: 5em;
 }
 
@@ -413,7 +413,7 @@ section {
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
+  line-height: 1.6;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -545,56 +545,6 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
-  display: none;
-  color: var(--danger);
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: var(--bg);
-  background: var(--danger);
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: var(--bg);
-  background: var(--success);
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: var(--bg);
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--success);
-  border-top-color: var(--bg);
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 4px;
@@ -610,7 +560,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button {
   background: var(--primary);
   border: 0;
   padding: 10px 35px;
@@ -621,6 +571,16 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: var(--primary);
+}
+
+form input,
+form textarea {
+  width: 100%;
+}
+
+form .button {
+  background-color: var(--primary) !important;
+  color: var(--bg) !important;
 }
 
 @-webkit-keyframes animate-loading {
