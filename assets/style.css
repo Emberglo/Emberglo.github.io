@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: var(--info);
+  color: var(--secondary);
   text-decoration: none;
 }
 
