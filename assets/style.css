@@ -258,6 +258,7 @@ h6 {
   height: 100vh;
   background: url("./img/IMG_7560.jpg") top right no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   position: relative;
 }
 
