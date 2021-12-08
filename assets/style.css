@@ -11,7 +11,7 @@
   --black: #000000;
 }
 
-/* General */
+/* NOTE - General */
 body {
   font-family: "Voltaire", sans-serif;
   color: var(--info);
@@ -41,7 +41,7 @@ h6 {
   max-height: 100px;
 }
 
-/* Back To Top */
+/* NOTE - Back To Top */
 .back-to-top {
   position: fixed;
   display: none;
@@ -69,7 +69,7 @@ h6 {
   transition: background 0.2s ease-in-out;
 }
 
-/* Preloader */
+/* NOTE - Preloader */
 #preloader {
   position: fixed;
   top: 0;
@@ -121,7 +121,7 @@ h6 {
   }
 }
 
-/* Header */
+/* NOTE - Header */
 #header {
   position: fixed;
   top: 0;
@@ -148,8 +148,8 @@ h6 {
   }
 }
 
-/* Navigation */
-/* Desktop */
+/* NOTE - Navigation */
+/* NOTE - Desktop */
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -220,7 +220,7 @@ h6 {
   display: block;
 }
 
-/* Mobile */
+/* NOTE - Mobile */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -252,7 +252,7 @@ h6 {
   color: var(--danger);
 }
 
-/* Hero */
+/* NOTE - Hero */
 #hero {
   width: 100%;
   height: 100vh;
@@ -332,7 +332,7 @@ h6 {
   }
 }
 
-/* Section Info */
+/* NOTE - Section Info */
 section {
   padding: 45px 0;
   overflow: hidden;
@@ -358,7 +358,7 @@ section {
   margin-bottom: 0;
 }
 
-/* About */
+/* NOTE - About */
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -384,12 +384,12 @@ section {
   margin-bottom: 0;
 }
 
-/* Facts */
+/* NOTE -  Facts */
 .portfolio .dev {
   font-size: 5em;
 }
 
-/* Portfolio */
+/* NOTE -  Portfolio */
 .bg-grey {
   background-color: var(--info);
   color: var(--bg);
@@ -397,7 +397,7 @@ section {
   height: fit-content;
 }
 
-/* Resume */
+/* NOTE - Resume */
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -455,7 +455,7 @@ section {
   border: 2px solid var(--info);
 }
 
-/* Contact */
+/* NOTE -  Contact */
 #contact {
   width: 100%;
   height: 100vh;
@@ -463,6 +463,7 @@ section {
     no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: -300px;
 }
 
 #contact:before {
